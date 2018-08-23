@@ -14,4 +14,15 @@ export class MoodFaceComponent implements OnInit {
   ngOnInit() {
   }
 
+  isHappy(){
+    return this.mood === 'happy';
+  }
+
+  isSoso(){
+    return this.mood === 'soso';
+  }
+
+  isAngry(){
+    return this.mood === 'angry';
+  }
 }
