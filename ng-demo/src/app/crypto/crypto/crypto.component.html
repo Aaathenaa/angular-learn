@@ -1,0 +1,19 @@
+
+
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Symbol</th>
+    <th>Value</th>
+  </thead>
+
+  <tbody>
+  <tr *ngFor =" let c of  getCoins()">
+    <td> {{c.name}}</td>
+    <td> {{c.symbol}}</td>
+    <td> {{c.value}}</td>
+  </tr>
+  </tbody>
+
+
+</table>
