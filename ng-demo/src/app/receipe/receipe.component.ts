@@ -13,7 +13,6 @@ export class ReceipeComponent implements OnInit {
 
 
 
-
   constructor() { }
 
   ngOnInit() {
